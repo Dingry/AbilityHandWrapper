@@ -18,7 +18,7 @@ Ensure you update the `usb_port` variable in the script to match the port to whi
 
 For position control, set the `reply_mode` variable in the script to `0x11` and run the script. The default control mode is `0x21`, which is velocity control.
 
-You can fine-tune the PID parameters in [RealAbilityHand.pd_vel_control](./ability_hand/__init__.py) to achieve better performance.
+You can fine-tune the PID parameters in [RealAbilityHand.pd_vel_control](./ability_hand/hand_control.py) to achieve better performance.
 
 ## Acknowledgements
 This repository is based on the [Ability Hand API](https://github.com/psyonicinc/ability-hand-api). Thanks to Ruihan Yang, Runyu Ding, Jiyue Zhu, and Yuzhe Qin for their contributions to the development of this repository.

@@ -67,7 +67,7 @@ def setup_package():
         python_requires=">=3.7,<=3.12",
         zip_safe=True,
         install_requires=core_requirements,
-        classifiers=classifiers
+        classifiers=classifiers,
     )
 
 
